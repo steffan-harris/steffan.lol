@@ -56,7 +56,7 @@ function Index() {
           </SummaryItem>
           <SummaryItem>
             <a
-              href="https://www.github.com/Steffan-Harris"
+              href="https://www.github.com/steffan-harris"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.link}
