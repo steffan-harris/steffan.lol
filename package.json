@@ -12,8 +12,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@fontsource/orbit": "^5.2.8",
-    "@fontsource/quantico": "^5.2.7",
     "@tanstack/react-router": "^1.131.41",
     "@tanstack/react-router-devtools": "^1.131.41",
     "clsx": "^2.1.1",
