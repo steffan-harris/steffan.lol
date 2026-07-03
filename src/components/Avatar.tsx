@@ -8,8 +8,10 @@ interface AvatarProps {
 function Avatar({ className }: AvatarProps) {
   return (
     <img
-      src="avatar.png"
+      src="/avatar.webp"
       alt="Photograph of Steffan"
+      width={200}
+      height={200}
       className={clsx(styles.avatar, className)}
     />
   );

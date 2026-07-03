@@ -12,7 +12,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className={styles.homepage}>
+    <main className={styles.homepage}>
       <Logo className={styles.logo} />
       <Heading className={styles.heading}>
         Software engineer committed to enhancing user experiences
@@ -100,6 +100,6 @@ function Index() {
           </SummaryItem>
         </Summary>
       </div>
-    </div>
+    </main>
   );
 }
