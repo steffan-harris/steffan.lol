@@ -1,0 +1,14 @@
+# Steffan Harris
+
+> Personal site of Steffan Harris, a software engineer specialising in React and TypeScript, committed to enhancing user experiences.
+
+## Pages
+
+- [Home](https://steffan.lol/): Overview, skills, and contact details
+- [Work Experience](https://steffan.lol/work-experience): Roles at Sainsbury's, Vodafone, Red Technology, and Bee Design Ltd
+- [CV](https://steffan.lol/Steffan_Harris_CV.pdf): Downloadable CV (PDF)
+
+## Links
+
+- [GitHub](https://github.com/Steffan-Harris)
+- [LinkedIn](https://www.linkedin.com/in/steffanharris)
