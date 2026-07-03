@@ -15,7 +15,7 @@ function Index() {
     <main className={styles.homepage}>
       <Logo className={styles.logo} />
       <Heading className={styles.heading}>
-        Software engineer committed to enhancing user experiences
+        Frontend engineer specialising in React &amp; TypeScript
       </Heading>
       <div className={styles.contact}>
         <a href="mailto:hi@steffan.lol" title="Email me" aria-label="Email me">
@@ -31,18 +31,18 @@ function Index() {
       </div>
       <div className={styles.summaries}>
         <Summary heading="Skills" className={styles.summary}>
-          <SummaryItem>ReactJS</SummaryItem>
+          <SummaryItem>React</SummaryItem>
           <SummaryItem>TypeScript</SummaryItem>
           <SummaryItem>HTML5</SummaryItem>
           <SummaryItem>CSS3</SummaryItem>
-          <SummaryItem>Clean Code</SummaryItem>
-          <SummaryItem>UI Design</SummaryItem>
+          <SummaryItem>Accessibility</SummaryItem>
+          <SummaryItem>Testing</SummaryItem>
         </Summary>
         <Summary heading="Experience" className={styles.summary}>
           <SummaryItem>Sainsbury's</SummaryItem>
           <SummaryItem>Vodafone</SummaryItem>
-          <SummaryItem>Red Technology</SummaryItem>
           <SummaryItem>Bee Design Ltd</SummaryItem>
+          <SummaryItem>Red Technology</SummaryItem>
         </Summary>
         <Summary heading="Links" className={styles.summary}>
           <SummaryItem>
