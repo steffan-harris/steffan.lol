@@ -1,14 +1,8 @@
 # Run this as its own stack on the Hetzner server (e.g. docker compose -p steffan-lol up -d).
 #
-# Prerequisite (one-time, on the server):
-#   docker network create caddy-net
-#   Attach the existing Caddy container to caddy-net too (see its compose file),
-#   so it can reach this container by service name.
-#
-# Then add a matching block to your Caddyfile, e.g.:
-#   steffan.lol {
-#       reverse_proxy steffan-lol:80
-#   }
+# The caddy-net network and Caddy's routing rules are owned by the server-config
+# repo, which should be deployed first — see that repo for setup and adding
+# this site's block to the Caddyfile.
 
 services:
   steffan-lol:
